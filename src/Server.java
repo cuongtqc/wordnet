@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class Server
  */
-@WebServlet(description = "Demo for servlet", urlPatterns = { "/Server" })
+//@WebServlet(description = "Demo for servlet", urlPatterns = { "https://wordnetany.herokuapp.com/Server" })
 public class Server extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
@@ -28,6 +28,7 @@ public class Server extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
+		
 	}
 
 	/**
